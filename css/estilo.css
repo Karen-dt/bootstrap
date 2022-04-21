@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(90, 240, 108);
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(70, 66, 67);
+}
+h5{
+    color: rgb(32, 28, 48);
+}
+p{
+    color: white;
+    text-align: center;
+}
+.btn-primary{
+    color: rgb(30, 36, 47);
+    background-color: aquamarine;
+    border-color: aquamarine;
+    transition: all 2s;
+}
+.btn-primary:hover{
+    color: rgb(170, 174, 183);
+    background-color: rgb(19, 115, 83);
+    border-color: rgb(19, 115, 83);
+}
+.btn-secondary{
+    color: rgb(30, 36, 47);
+    background-color: aquamarine;
+    border-color: aquamarine;
+    transition: all 2s;
+}
+.btn-secundary:hover{
+    color: rgb(170, 174, 183);
+    background-color: rgb(19, 115, 83);
+    border-color: rgb(19, 115, 83);
+}
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  }
+/* "footer" */
+footer{
+    width: 100%;
+    background-color: rgb(50, 44, 44);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.redes{
+    display: inline-block;
+}
+.bi-facebook {
+    text-align: center;
+    margin-left: 5px;
+    margin-right:5px;
+    color: blue ;
+}
+
+.bi-instagram {
+    text-align: center;
+    margin-left: 5px;
+    margin-right:5px;
+    color: rgb(127, 40, 135) ;
+}
+.bi-whatsapp {
+    text-align: center;
+    margin-left: 5px;
+    margin-right:5px;
+    color: rgb(13, 145, 46) ;
+}
+.bi-twitter {
+    text-align: center;
+    margin-left: 5px;
+    margin-right:5px;
+    color: rgb(37, 79, 186) ;
+}
